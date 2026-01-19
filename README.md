@@ -66,7 +66,7 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
 * MySQL Server
 
 ---
-
+git st
 ## 👥 Equipo Bugbusters
 
 Este proyecto fue desarrollado por el equipo **Bugbusters** como parte del Proyecto Integrador del Bootcamp Generation CH63.
@@ -82,6 +82,7 @@ Este proyecto fue desarrollado por el equipo **Bugbusters** como parte del Proye
 | **Mariana Carmona** | / | [@user](https://github.com/) |
 | **Andrea Meneses** |  / | [@user](https://github.com/) |
 | **Juan Ariel Alarcón** | /  | [@user](https://github.com/) |
+
 
 ---
 ⌨️ con ❤️ por el equipo **Bugbusters** 😊
