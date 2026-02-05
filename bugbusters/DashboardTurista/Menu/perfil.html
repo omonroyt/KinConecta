@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ajustes de Perfil - Kin Conecta</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#af3808",
+                "background-light": "#f8f6f5",
+                "background-dark": "#221510",
+                "teal-brand": "#173D3C",
+                "highlight-brand": "#FB9D0B",
+              },
+              fontFamily: {
+                "display": ["Plus Jakarta Sans", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d1d5db; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9ca3af; 
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#181311] dark:text-gray-100 overflow-hidden">
+<div class="flex h-screen w-full overflow-hidden">
+<aside class="w-64 flex-shrink-0 bg-white dark:bg-[#1E1E1E] border-r border-[#f0ebe9] dark:border-gray-800 flex flex-col justify-between overflow-y-auto z-50 relative">
+<div>
+<div class="px-6 py-8 flex items-center gap-3">
+<div class="bg-primary/10 p-2 rounded-lg">
+<span class="material-symbols-outlined text-primary" style="font-size: 28px;">travel_explore</span>
+</div>
+<h1 class="text-teal-brand dark:text-white text-xl font-bold tracking-tight">Kin Conecta</h1>
+</div>
+<nav class="flex flex-col gap-2 px-4">
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">home</span>
+<span class="text-sm font-medium">Inicio</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">explore</span>
+<span class="text-sm font-medium">Explorar</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">favorite</span>
+<span class="text-sm font-medium">Favoritos</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">map</span>
+<span class="text-sm font-medium">Mis Viajes</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">chat_bubble</span>
+<span class="text-sm font-medium">Mensajes</span>
+<span class="ml-auto bg-primary text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full">3</span>
+</a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors group" href="#">
+<span class="material-symbols-outlined group-hover:text-primary transition-colors">star</span>
+<span class="text-sm font-medium">Reseñas</span>
+</a>
+</nav>
+</div>
+<div class="p-4 border-t border-[#f0ebe9] dark:border-gray-800 relative z-50">
+<div class="absolute bottom-[calc(100%-0.5rem)] left-4 right-4 bg-white dark:bg-[#1E1E1E] rounded-2xl shadow-2xl border border-gray-100 dark:border-gray-800 transform origin-bottom transition-all duration-300 z-50 overflow-hidden hidden">
+<nav class="flex flex-col p-2">
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-xl bg-teal-brand/5 dark:bg-teal-brand/20 text-teal-brand dark:text-teal-400 transition-colors group" href="#">
+<span class="material-symbols-outlined text-[20px] fill-1">person</span>
+<span class="text-sm font-bold">Perfil</span>
+</a>
+</nav>
+</div>
+<button class="flex items-center gap-3 w-full p-2 rounded-xl bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700 transition-colors relative z-40 shadow-sm active:scale-[0.98]">
+<div class="h-10 w-10 rounded-full bg-cover bg-center" data-alt="User Avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDfFmC8OK9sh1n8CUEtELdkqASvpoFFqWQAouhYn008y4afi1bJYJhAbWL6ocr3ry8sMosNXuBdKEQ4Xosr396hZtP6ZaFuICC-t4XHHC43D4SeE8TORCCeWTg1jTy1v3E0gANzhZXLX7uYmPsNgFn6H7xbwIyKJ2O38xPWS-HuvbdDK5eQJu2AALZyyngWIjHHvc2__vb_wNPYP_XZvsCf2J2hHkxm7_Ayfw0COww9QOtmyH0kQ8p-VSvB5aBodPhyW_EiLkb9hg4L');"></div>
+<div class="flex flex-col items-start">
+<p class="text-sm font-bold text-teal-brand dark:text-white">Alejandro M.</p>
+<p class="text-xs text-gray-500">Turista Premium</p>
+</div>
+<span class="material-symbols-outlined ml-auto text-primary text-lg">expand_more</span>
+</button>
+</div>
+</aside>
+<main class="flex-1 flex flex-col min-w-0 overflow-hidden relative">
+<header class="flex items-center justify-between px-8 py-5 bg-background-light dark:bg-background-dark border-b border-gray-100 dark:border-gray-800 z-10">
+<div class="flex flex-1 max-w-lg">
+<div class="relative w-full text-gray-500 focus-within:text-primary">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="block w-full pl-10 pr-3 py-2.5 border-none rounded-xl bg-white dark:bg-[#1E1E1E] text-gray-900 dark:text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-sm sm:text-sm" placeholder="Buscar destinos, guías..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4 pl-4">
+<button class="relative p-2 text-gray-500 hover:bg-white dark:hover:bg-[#1E1E1E] hover:text-primary rounded-full transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2.5 block h-2 w-2 rounded-full bg-highlight-brand ring-2 ring-background-light dark:ring-background-dark"></span>
+</button>
+<button class="p-2 text-gray-500 hover:bg-white dark:hover:bg-[#1E1E1E] hover:text-primary rounded-full transition-colors">
+<span class="material-symbols-outlined">chat</span>
+</button>
+<div class="h-8 w-[1px] bg-gray-300 dark:bg-gray-700 mx-2"></div>
+<button class="hidden md:flex items-center gap-2 bg-white dark:bg-[#1E1E1E] py-2 px-4 rounded-xl shadow-sm text-sm font-semibold text-teal-brand dark:text-white border border-transparent hover:border-primary/20 transition-all">
+<span class="material-symbols-outlined text-primary">add_circle</span>
+                        Nuevo Viaje
+                    </button>
+</div>
+</header>
+<div class="flex-1 overflow-y-auto p-8 pb-20 scroll-smooth bg-background-light dark:bg-background-dark">
+<div class="max-w-4xl mx-auto w-full pt-4">
+<div class="mb-6 flex items-center justify-between">
+<div>
+<h1 class="text-3xl font-bold text-teal-brand dark:text-white tracking-tight font-display">Ajustes de Perfil</h1>
+<p class="text-gray-500 dark:text-gray-400 mt-1">Administra tu información personal y la seguridad de tu cuenta.</p>
+</div>
+</div>
+<div class="bg-white dark:bg-[#1E1E1E] rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800">
+<div class="p-6 md:p-8 flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-100 dark:border-gray-800">
+<div class="relative shrink-0 group">
+<div class="w-32 h-32 rounded-full bg-cover bg-center border-4 border-gray-50 dark:border-gray-800 shadow-inner" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDfFmC8OK9sh1n8CUEtELdkqASvpoFFqWQAouhYn008y4afi1bJYJhAbWL6ocr3ry8sMosNXuBdKEQ4Xosr396hZtP6ZaFuICC-t4XHHC43D4SeE8TORCCeWTg1jTy1v3E0gANzhZXLX7uYmPsNgFn6H7xbwIyKJ2O38xPWS-HuvbdDK5eQJu2AALZyyngWIjHHvc2__vb_wNPYP_XZvsCf2J2hHkxm7_Ayfw0COww9QOtmyH0kQ8p-VSvB5aBodPhyW_EiLkb9hg4L');"></div>
+<button class="absolute bottom-1 right-1 bg-primary text-white p-2.5 rounded-full shadow-lg border-2 border-white dark:border-[#1E1E1E] hover:bg-primary/90 transition-transform hover:scale-110 cursor-pointer">
+<span class="material-symbols-outlined text-[20px] block">photo_camera</span>
+</button>
+</div>
+<div class="flex flex-col items-center md:items-start text-center md:text-left pt-2 flex-1">
+<h3 class="text-xl font-bold text-teal-brand dark:text-white">Tu Foto</h3>
+<p class="text-sm text-gray-500 mb-6 max-w-sm">Esta foto se mostrará en tu perfil público y ayudará a los guías y anfitriones a reconocerte.</p>
+<div class="flex gap-3">
+<button class="px-5 py-2.5 bg-teal-brand/10 hover:bg-teal-brand/20 text-teal-brand dark:text-teal-400 dark:bg-teal-brand/20 dark:hover:bg-teal-brand/30 rounded-xl text-sm font-bold transition-colors">
+                                        Cambiar foto
+                                    </button>
+<button class="px-5 py-2.5 text-gray-400 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-xl text-sm font-semibold transition-colors">
+                                        Eliminar
+                                    </button>
+</div>
+</div>
+</div>
+<div class="p-6 md:p-8">
+<form class="flex flex-col gap-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-gray-700 dark:text-gray-300">Nombre completo</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-gray-400 text-[20px]">person</span>
+<input class="w-full pl-10 pr-4 py-2.5 bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400 font-medium" type="text" value="Alejandro Martínez"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-gray-700 dark:text-gray-300">Correo electrónico</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-gray-400 text-[20px]">mail</span>
+<input class="w-full pl-10 pr-4 py-2.5 bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400 font-medium" type="email" value="alejandro.m@kinconecta.com"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-gray-700 dark:text-gray-300">Número de teléfono</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-gray-400 text-[20px]">call</span>
+<input class="w-full pl-10 pr-4 py-2.5 bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400 font-medium" type="tel" value="+52 55 1234 5678"/>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-gray-700 dark:text-gray-300">Idioma preferido</label>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-3 text-gray-400 text-[20px]">language</span>
+<select class="w-full pl-10 pr-10 py-2.5 bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all appearance-none font-medium">
+<option>Español (Latinoamérica)</option>
+<option>English (US)</option>
+<option>Français</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-gray-400 pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-gray-700 dark:text-gray-300">Biografía corta</label>
+<div class="relative">
+<textarea class="w-full p-4 bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 rounded-xl text-gray-900 dark:text-white focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-gray-400 font-medium resize-none" placeholder="Cuéntanos un poco sobre ti y qué tipo de aventuras buscas..." rows="4"></textarea>
+</div>
+<p class="text-right text-xs text-gray-400">0/250 caracteres</p>
+</div>
+<div class="h-px bg-gray-100 dark:bg-gray-800 my-2"></div>
+<div class="flex items-center justify-end gap-4">
+<button class="px-6 py-3 rounded-xl text-gray-600 dark:text-gray-400 font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors" type="button">Cancelar</button>
+<button class="px-8 py-3 rounded-xl bg-primary text-white font-bold shadow-lg shadow-primary/25 hover:bg-primary/90 hover:shadow-xl hover:shadow-primary/30 transition-all transform hover:-translate-y-0.5" type="button">Guardar Cambios</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>
