@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Favoritos - Kin Conecta</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="favorites.css">
+</head>
+
+<body class="app">
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar__top">
+      <div class="sidebar__brand">
+        <span class="sidebar__icon material-symbols-outlined">travel_explore</span>
+        <h2 class="sidebar__title">Kin Conecta</h2>
+      </div>
+
+      <nav class="sidebar__nav">
+        <a class="sidebar__link" href="#">
+          <span class="material-symbols-outlined">home</span> Inicio
+        </a>
+
+        <a class="sidebar__link" href="#">
+          <span class="material-symbols-outlined">explore</span> Explorar
+        </a>
+
+        <a class="sidebar__link sidebar__link--active" href="#">
+          <span class="material-symbols-outlined">favorite</span> Favoritos
+        </a>
+
+        <a class="sidebar__link" href="#">
+          <span class="material-symbols-outlined">map</span> Mis Viajes
+        </a>
+
+        <a class="sidebar__link" href="#">
+          <span class="material-symbols-outlined">chat_bubble</span> Mensajes
+        </a>
+
+        <a class="sidebar__link" href="#">
+          <span class="material-symbols-outlined">star</span> Reseñas
+        </a>
+      </nav>
+    </div>
+
+    <div class="sidebar__user">
+        <button class="sidebar__btn-perfil">
+            <div class="sidebar__avatar"></div>
+            <div>
+                <p class="sidebar__name">Alejandro M.</p>
+                <span class="sidebar__role">Turista Premium</span>
+            </div>
+            <div class="sidebar__expand-container">
+                <span class="material-symbols-outlined" >expand_more</span>
+            </div>
+        </button>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <header class="header">
+        <div class="header__container">
+          <div class="header__search-container">
+            <div class="header__search">
+              <div class="header__search-icon">
+                <span class="material-symbols-outlined">search</span>
+              </div>
+              <input type="text" placeholder="Buscar en tus favoritos...">
+            </div>
+          </div>
+          <div class="header__btn-container">
+            <button class="header__btn">
+              <span class="material-symbols-outlined">notifications</span>
+            </button>
+            <button class="header__btn">
+              <span class="material-symbols-outlined">chat</span>
+            </button>
+            <div class="header__separador"></div>
+            <button class="header__btn">
+              <span class="material-symbols-outlined text-primary">add_circle</span> Nuevo Viaje
+            </button>
+          </div>
+        </div>
+    </header>
+    
+    <div class="favorite__container-md">
+      <div class="favorite__container">
+        <section class="favorite">
+          <div class="favorite__title-container">
+            <h1>Mis Favoritos</h1>
+            <p>Colección de tus guías y destinos soñados.</p>
+          </div>
+                  
+          <div class="favorite__filters-container">
+            <nav class="favorite__filters">
+              <a class="filter-active" href="#">
+                <span class="material-symbols-outlined filter-text" >face</span> 
+                <span>Guías </span>
+                <span class="filter-number">4</span>
+              </a>
+              <a href="#">
+                <span class="material-symbols-outlined filter-text" >face</span> Guías 
+                <span class="filter-number">4</span>
+              </a>
+            </nav>
+          </div>
+        </section>
+
+        <section>
+          <div class="cards-container">
+              <div class="card">
+                <div class="card__image-container">
+                  <div class="card__image"></div>
+                  <button>
+                    <span class="material-symbols-outlined">favorite</span>
+                  </button>
+                  <div class="card__img-start-container">
+                    <span class="material-symbols-outlined start-icon">star</span>
+                    <span class="stars-rank">4.9</span>
+                  </div>
+                  <div class="card__img-etiqueta">
+                  <span>Montaña</span>
+                  <span>Historia</span>
+                </div>
+                </div>
+                <div class="card__content">
+                  <div class="card__title">
+                    <h3>Ana García</h3>
+                    <p>€25 <span>/h</span></p>
+                  </div>
+                  <p class="card__location">
+                    <span class="material-symbols-outlined">location_on</span>
+                    Oaxaca, México
+                  </p>
+                  <p>Especialista en rutas de senderismo y cultura local en los Pirineos</p>
+                </div>
+              </div>       
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+</div>
+</body>
+</html>
