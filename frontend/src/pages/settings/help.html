@@ -36,17 +36,17 @@
           </div>
 
     <nav class="nav">
-    <a class="nav__item" href="../Dashboard/turista/login.html">
+    <a class="nav__item" href="../Dashboard/turista/mainUserTourist.html">
         <span class="material-symbols-outlined nav__icon">home</span>
         <span class="nav__text">Inicio</span>
     </a>
 
-    <a class="nav__item" href="../Dashboard/turista/login.html"">
+    <a class="nav__item" href="../Dashboard/turista/explore.html">
         <span class="material-symbols-outlined nav__icon">explore</span>
         <span class="nav__text">Explorar</span>
     </a>
 
-    <a class="nav__item" href="#">
+    <a class="nav__item" href="../Dashboard/turista/favorites.html">
         <span class="material-symbols-outlined nav__icon">favorite</span>
         <span class="nav__text">Favoritos</span>
     </a>
@@ -56,7 +56,7 @@
         <span class="nav__text">Mis Viajes</span>
     </a>
 
-    <a class="nav__item" href="../Dashboard/turista/messages.html">
+    <a class="nav__item" href="../Dashboard/messages.html">
         <span class="material-symbols-outlined nav__icon">chat_bubble</span>
         <span class="nav__text">Mensajes</span>
         <span class="nav__badge">3</span>
@@ -69,32 +69,32 @@
         <div class="user-menu" data-user-menu>
             <!-- Dropdown -->
             <div class="user-menu__dropdown" data-user-menu-dropdown aria-hidden="true">
-            <a class="user-menu__item" href="#">
+            <a class="user-menu__item" href="../settings/profileTourist.html">
                 <span class="material-symbols-outlined user-menu__item-icon">person</span>
                 <span class="user-menu__item-text">Perfil</span>
             </a>
 
-            <a class="user-menu__item" href="#">
+            <a class="user-menu__item" href="../settings/notifications.html">
                 <span class="material-symbols-outlined user-menu__item-icon">notifications</span>
                 <span class="user-menu__item-text">Notificaciones</span>
             </a>
 
-            <a class="user-menu__item" href="#">
+            <a class="user-menu__item" href="../settings/security.html">
                 <span class="material-symbols-outlined user-menu__item-icon">shield</span>
                 <span class="user-menu__item-text">Seguridad</span>
             </a>
 
-            <a class="user-menu__item" href="#">
+            <a class="user-menu__item" href="../settings/lenguage.html">
                 <span class="material-symbols-outlined user-menu__item-icon">language</span>
                 <span class="user-menu__item-text">Idioma</span>
             </a>
 
-            <a class="user-menu__item" href="#">
+            <a class="user-menu__item" href="../settings/privacity.html">
                 <span class="material-symbols-outlined user-menu__item-icon">lock</span>
                 <span class="user-menu__item-text">Privacidad</span>
             </a>
 
-            <a class="user-menu__item" href="#">
+            <a class="user-menu__item" href="../settings/help.html">
                 <span class="material-symbols-outlined user-menu__item-icon">help</span>
                 <span class="user-menu__item-text">Ayuda (FAQ)</span>
             </a>
@@ -139,12 +139,12 @@
           </div>
 
           <div class="topbar__actions">
-            <button class="icon-btn" type="button" aria-label="Notificaciones">
+            <button class="icon-btn" type="button" aria-label="Notificaciones" href="../Dashboard/messages.html">
               <span class="material-symbols-outlined icon-btn__icon">notifications</span>
               <span class="icon-btn__dot" aria-hidden="true"></span>
             </button>
 
-            <button class="icon-btn" type="button" aria-label="Mensajes">
+            <button class="icon-btn" type="button" aria-label="Mensajes" href="../Dashboard/messages.html">
               <span class="material-symbols-outlined icon-btn__icon">chat</span>
             </button>
 
@@ -502,12 +502,13 @@
 
             <!-- FOOTER LINKS -->
             <footer class="footer-links">
-              <a class="footer-links__link" href="#">Términos de Servicio</a>
-              <span class="footer-links__dot">•</span>
-              <a class="footer-links__link" href="#">Política de Privacidad</a>
-              <span class="footer-links__dot">•</span>
-              <a class="footer-links__link" href="#">Mapa del Sitio</a>
+                <a class="footer-links__link" href="../settings/termsOfService.html" data-legal="terms">Términos de Servicio</a>
+                <span class="footer-links__dot">•</span>
+                <a class="footer-links__link" href="../settings/privacyPolicy.html" data-legal="privacy">Política de Privacidad</a>
+                <span class="footer-links__dot">•</span>
+                <a class="footer-links__link" href="../settings/siteMap.html" data-legal="map">Mapa del Sitio</a>
             </footer>
+
           </div>
         </section>
       </main>
